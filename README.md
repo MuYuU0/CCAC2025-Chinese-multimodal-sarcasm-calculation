@@ -71,7 +71,7 @@ macro F1
 Score = 0.5 * T1.F1 + 0.5 * T2.F1 。（其中Ti表示子任务，i∈1,2；F1为各子任务的macro F1）。
 
 ## 5 答疑与交流
-我们建立了QQ群：649503826。
+评测任务QQ群：649503826。
 
 ## 6 评测奖励
 - 对于各任务获得前3名队伍可提供一个免注册费参会（食宿自理）的名额；另外各任务前3名队伍的论文可自愿推荐到期刊《Symmetry》（SCI三区，MDPI开源期刊）的special issue：Symmetry and Asymmetry in LLMs-Based NLP。
