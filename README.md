@@ -35,10 +35,8 @@
      "sarcasmTarget":"",
      "sarcasmType": -1
 }
-    "其中"id": "2_1_3"表示字幕为第2季第1期的第3条文本数据,非讽刺及幽默时，其相应类别sarcasmType、humorType被标注为-1"
-
 ```
-    
+其中"id": "2_1_3"表示字幕为第2季第1期的第3条文本数据,非讽刺及幽默时，其相应类别sarcasmType、humorType被标注为-1
 
 中文多模态讽刺计算包括两个任务：
 
