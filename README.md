@@ -6,7 +6,7 @@
 ## 任务介绍
 中文多模态讽刺计算数据集数据来源于国内著名的脱口秀节目《吐槽大会》。**该数据集通过时间戳将视频内容切分为多个片段，每个视频片段均进行了详细的标注，包括：编号（subtitleNo）、说话人（speaker）、对应视频片段的起始结束时间（start、end）、文本内容（sentence）、是否幽默（isHumor）、幽默类别（humorType）、是否讽刺（isSarcasm）、讽刺目标（sarcasmTarget）、讽刺类别（sarcasmType）**，具体文本标注标签如下：
 ```json
-讽刺数据
+"讽刺数据"
 {
     "id": "2_1_3",                   
     "speaker": "张邵刚",
@@ -21,9 +21,9 @@
     "sarcasmType": 5
 }
 
-非讽刺数据
+"非讽刺数据"
 {
-    "subtitleNo": 2_1_7,
+    "subtitleNo": "2_1_7",
      "speaker": "池子",
      "start": "00:05:46,231",
      "end": "00:05:47,386",
@@ -35,7 +35,7 @@
      "sarcasmTarget":"",
      "sarcasmType": -1
 }
-    其中"id": "2_1_3"表示字幕为第2季第1期的第3条文本数据,非讽刺及幽默时，其相应类别sarcasmType、humorType被标注为-1
+    "其中"id": "2_1_3"表示字幕为第2季第1期的第3条文本数据,非讽刺及幽默时，其相应类别sarcasmType、humorType被标注为-1"
 
 ```
     
