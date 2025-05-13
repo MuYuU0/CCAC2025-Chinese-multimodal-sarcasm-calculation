@@ -7,20 +7,20 @@
 中文多模态讽刺计算数据集数据来源于国内著名的脱口秀节目《吐槽大会》。**该数据集通过时间戳将视频内容切分为多个片段，每个视频片段均进行了详细的标注，包括：编号（subtitleNo）、说话人（speaker）、对应视频片段的起始结束时间（start、end）、文本内容（sentence）、是否幽默（isHumor）、幽默类别（humorType）、是否讽刺（isSarcasm）、讽刺目标（sarcasmTarget）、讽刺类别（sarcasmType）**，具体文本标注标签如下：
 ```json
 {
-    "subtitleNo": 3,
+    "id": 2_1_3,
     "speaker": "张邵刚",
     "start": "00:07:45,900",
     "end": "00:07:53,027",
     "sentence": "笑什么笑，就你们弄的那个破维秘的氛围，不靠我这撑一下，这场子体面吗？",
     "isHumor": 1,
     "speakerEmotion": 1,
-    "humorType": [4],
+    "humorType": 4,
     "isSarcasm": 1,
-    "sarcasmTarget": ["李诞"],
-    "sarcasmType": [5]
+    "sarcasmTarget": "李诞",
+    "sarcasmType": 5
 }
 ```
-
+其中
 中文多模态讽刺计算包括两个任务：
 
 1. 识别多模态数据中含有反讽意味的视频片段；
