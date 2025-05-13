@@ -70,7 +70,18 @@ macro F1。
 4. Understatement（轻描淡写），降低或破坏事态重要性的评论，标注为3；
 5. Overstatement（夸大），用明显夸张的措辞描述事态的评论，标注为4；
 6. Rhetorical question（反问），用反问语句引导读者推理出与实际情况明显相悖的含义的评论，标注为5。
-
+讽刺类别与 ID 的对应关系
+       ```json
+       {
+           "-1": "非讽刺",
+           "0":"Sarcasm",
+           "1": "Irony",
+           "2": "Satire",
+           "3": "Understatement",
+           "4": "Overstatement",
+           "5": "Rhetorical Question"
+      }
+       ```
 ### 2.2 数据样例
 数据样例为文本数据和相应的视频片段与音频片段，文本数据为目标语句。
 ```text
