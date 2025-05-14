@@ -129,9 +129,9 @@ macro F1。
         "data":
         [
             {
-            "id": "2_1_1", 
-            "isSarcasm": 0,
-            "sarcasmType": -1
+                "id": "2_1_1", 
+                "isSarcasm": 0,
+                "sarcasmType": -1
             },
         ]
 }
