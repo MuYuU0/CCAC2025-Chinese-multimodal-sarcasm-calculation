@@ -80,7 +80,7 @@ macro F1。
            "3": "Understatement",
            "4": "Overstatement",
            "5": "Rhetorical Question"
-      }
+}
 ```
 ### 2.2 数据样例
 数据样例为文本数据和相应的视频片段与音频片段，文本数据为目标语句。
@@ -108,6 +108,7 @@ macro F1。
 macro F1。
 ### 3 提交结果
 训练集与测试集结果均使用json格式文件提交
+
 训练集提交样式如下：
 ```json
 {
@@ -119,20 +120,21 @@ macro F1。
         "t2_precision": 0.8,
         "t2_recall": 0.8,
         "t2_f1": 0.8
-      }
+}
 ```
 测试集提交样式如下：
 ```json
 {
         "total": 540,
-        "data": [
+        "data":
+        [
             {
             "id": "2_1_1", 
             "isSarcasm": 0,
             "sarcasmType": -1
             },
         ]
-      }
+}
 ```
 
 ## 4 评测时间安排
