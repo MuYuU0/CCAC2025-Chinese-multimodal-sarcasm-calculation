@@ -130,7 +130,6 @@ macro F1。
             "isSarcasm": 0,
             "sarcasmType": -1
             },
-          
         ]
       }
 ```
