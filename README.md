@@ -146,9 +146,11 @@ macro F1。
 
 ## 5 评测数据地址
 训练数据：
-    ![image](https://github.com/user-attachments/assets/6b553e24-899b-4211-a0ca-5c22b6406b7c)
+    ![image](https://github.com/user-attachments/assets/ff7da22d-62ff-42fd-af4f-c3a3d28abce7)
+
 测试数据：
-    ![image](https://github.com/user-attachments/assets/8cea6186-eb62-4792-8b6c-48a50155b9ae)
+    ![image](https://github.com/user-attachments/assets/4d1a5137-d926-4e24-a707-bf2f045edd4c)
+
 
 ## 6 最终排名计算
 Score = 0.5 * T1.F1 + 0.5 * T2.F1 。（其中Ti表示子任务，i∈1,2；F1为各子任务的macro F1）。
